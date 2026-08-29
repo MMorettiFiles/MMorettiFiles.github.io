@@ -339,11 +339,25 @@ p, h1, h2, h3, figure { margin-top: 0; }
   font-family: var(--serif);
   font-size: .95rem;
 }
-.paper-figure { align-self: start; margin: 0; }
-.paper-figure a { display: block; overflow: hidden; background: var(--paper); }
+.paper-figure {
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin: 0;
+}
+.paper-figure a {
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  background: var(--paper);
+  line-height: 0;
+}
 .paper-figure img {
+  display: block;
   width: 100%;
   max-height: 440px;
+  margin: 0;
   object-fit: contain;
   background: #fff;
   transition: transform .5s cubic-bezier(.2,.7,.2,1);
@@ -351,13 +365,13 @@ p, h1, h2, h3, figure { margin-top: 0; }
 .paper-figure a:hover img { transform: scale(1.018); }
 .paper-figure figcaption {
   margin: 0;
-  padding: .35rem .5rem;
+  padding: .2rem .5rem .08rem;
   color: var(--muted);
   background: var(--paper);
   font-family: var(--serif);
   font-size: .78rem;
   font-style: italic;
-  line-height: 1.45;
+  line-height: 1.25;
 }
 .mechanism-figure img { background: var(--blue-dark); }
 .paper-status {
