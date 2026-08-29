@@ -341,13 +341,16 @@ p, h1, h2, h3, figure { margin-top: 0; }
 }
 .paper-figure {
   align-self: start;
-  display: flex;
-  flex-direction: column;
-  gap: 0;
+  display: grid;
+  grid-template-rows: max-content max-content;
+  align-content: start;
+  row-gap: 0;
+  height: fit-content;
   margin: 0;
 }
 .paper-figure a {
   display: block;
+  align-self: start;
   overflow: hidden;
   margin: 0;
   background: var(--paper);
@@ -364,6 +367,8 @@ p, h1, h2, h3, figure { margin-top: 0; }
 }
 .paper-figure a:hover img { transform: scale(1.018); }
 .paper-figure figcaption {
+  align-self: start;
+  width: 100%;
   margin: 0;
   padding: .2rem .5rem .08rem;
   color: var(--muted);
