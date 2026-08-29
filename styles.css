@@ -435,7 +435,10 @@ p, h1, h2, h3, figure { margin-top: 0; }
 .contact .section-label { color: #b6c7d1; }
 .contact .section-label span { color: var(--sky); }
 .contact-copy { max-width: 760px; }
-.contact h2 { margin-bottom: 1.35rem; }
+.contact h2 {
+  margin-bottom: 1.35rem;
+  font-size: 1rem;
+}
 .contact-copy > p:not(.eyebrow) { color: #c3d0d7; }
 .contact-details { margin-bottom: 0; }
 .contact a {
