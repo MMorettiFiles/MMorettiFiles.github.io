@@ -331,14 +331,6 @@ p, h1, h2, h3, figure { margin-top: 0; }
   grid-row: 2;
   align-self: start;
 }
-.paper-number {
-  position: absolute;
-  top: 1rem;
-  right: 0;
-  color: #9ba5ab;
-  font-family: var(--serif);
-  font-size: .95rem;
-}
 .paper-figure {
   align-self: start;
   display: grid;
@@ -536,7 +528,6 @@ p, h1, h2, h3, figure { margin-top: 0; }
   .paper.paper-with-figure { grid-template-rows: auto auto; row-gap: 0; }
   .paper-with-figure .paper-figure { display: none; }
   .paper-with-figure > .abstract { grid-row: 2; }
-  .paper-number { top: .9rem; }
   .paper h3 { font-size: 1.9rem; }
   .site-footer { grid-template-columns: 1fr; gap: .35rem; }
   .site-footer a { justify-self: start; margin-top: .5rem; }
