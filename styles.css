@@ -118,7 +118,7 @@ p, h1, h2, h3, figure { margin-top: 0; }
 
 .masthead {
   position: relative;
-  min-height: clamp(400px, 52vh, 470px);
+  min-height: clamp(290px, 40vh, 350px);
   display: flex;
   align-items: flex-end;
   isolation: isolate;
@@ -137,7 +137,7 @@ p, h1, h2, h3, figure { margin-top: 0; }
 .masthead-content {
   width: min(calc(100% - 48px), var(--max));
   margin: 0 auto;
-  padding: clamp(2.5rem, 4.5vw, 4rem) 0;
+  padding: clamp(2rem, 3.5vw, 3rem) 0;
 }
 .masthead h1 {
   max-width: 760px;
@@ -213,8 +213,8 @@ p, h1, h2, h3, figure { margin-top: 0; }
 
 .about {
   grid-template-columns: 120px minmax(0, 1fr) minmax(210px, 280px);
-  padding-top: clamp(5rem, 9vw, 9rem);
-  padding-bottom: clamp(5rem, 9vw, 9rem);
+  padding-top: clamp(3rem, 5vw, 5rem);
+  padding-bottom: clamp(3rem, 5vw, 5rem);
 }
 .about-copy { max-width: 700px; }
 .about h2,
@@ -515,13 +515,13 @@ p, h1, h2, h3, figure { margin-top: 0; }
   }
   .site-nav.open { display: flex; }
   .site-nav a { width: 100%; padding: .8rem 0; }
-  .masthead { min-height: 430px; background-position: 57% center; }
+  .masthead { min-height: 350px; background-position: 57% center; }
   .masthead-overlay { background: linear-gradient(90deg, rgba(10,29,42,.86), rgba(10,29,42,.28)); }
   .masthead h1 { font-size: clamp(3rem, 15vw, 5rem); }
   .section-shell, .about { grid-template-columns: 1fr; }
   .section-label { display: flex; align-items: baseline; gap: .7rem; margin-bottom: 2.2rem; }
   .section-label span { margin: 0; }
-  .about { padding-top: 4.5rem; }
+  .about { padding-top: 3rem; }
   .portrait-wrap { width: min(80%, 340px); margin: 3rem 0 0 auto; }
   .portrait-wrap { width: min(72%, 260px); }
   .subsection-label { display: none; }
