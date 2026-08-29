@@ -359,6 +359,7 @@ p, h1, h2, h3, figure { margin-top: 0; }
 .paper-figure img {
   display: block;
   width: 100%;
+  height: auto;
   max-height: 440px;
   margin: 0;
   object-fit: contain;
@@ -444,6 +445,7 @@ p, h1, h2, h3, figure { margin-top: 0; }
 .contact-copy { max-width: 760px; }
 .contact h2 { margin-bottom: 1.35rem; }
 .contact-copy > p:not(.eyebrow) { color: #c3d0d7; }
+.contact-details { margin-bottom: 0; }
 .contact a {
   display: inline-block;
   margin-top: 1rem;
@@ -453,11 +455,11 @@ p, h1, h2, h3, figure { margin-top: 0; }
   text-decoration: none;
 }
 .contact .contact-email {
-  margin-top: 1rem;
+  margin-top: .35rem;
   margin-bottom: 0;
   color: var(--white);
-  font-family: var(--serif);
-  font-size: clamp(1.15rem, 2vw, 1.5rem);
+  font-family: var(--sans);
+  font-size: 1rem;
 }
 
 .site-footer {
