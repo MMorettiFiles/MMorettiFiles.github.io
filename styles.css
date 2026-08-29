@@ -532,8 +532,10 @@ p, h1, h2, h3, figure { margin-top: 0; }
   .subsection-label { display: none; }
   .paper-section { padding-top: 4.5rem; }
   .paper { padding: 3.8rem 0; }
+  .paper.paper-with-figure { grid-template-rows: auto auto; row-gap: 0; }
+  .paper-with-figure .paper-figure { display: none; }
+  .paper-with-figure > .abstract { grid-row: 2; }
   .paper-number { top: .9rem; }
-  .paper-figure { margin-bottom: 2rem; }
   .paper h3 { font-size: 1.9rem; }
   .site-footer { grid-template-columns: 1fr; gap: .35rem; }
   .site-footer p:nth-child(2) { text-align: left; }
