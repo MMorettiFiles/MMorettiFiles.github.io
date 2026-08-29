@@ -371,7 +371,7 @@ p, h1, h2, h3, figure { margin-top: 0; }
   align-self: start;
   width: 100%;
   margin: 0;
-  padding: .2rem 0 .08rem;
+  padding: .3rem 0 0;
   color: var(--muted);
   background: transparent;
   font-family: var(--serif);
