@@ -272,8 +272,8 @@ p, h1, h2, h3, figure { margin-top: 0; }
 
 .research-intro {
   position: relative;
-  padding-top: clamp(3.75rem, 6vw, 6rem);
-  padding-bottom: clamp(3rem, 5.25vw, 5.25rem);
+  padding-top: clamp(3rem, 4.8vw, 4.8rem);
+  padding-bottom: clamp(2.4rem, 4.2vw, 4.2rem);
   background: var(--paper);
   box-shadow: 0 0 0 100vmax var(--paper);
   clip-path: inset(0 -100vmax);
