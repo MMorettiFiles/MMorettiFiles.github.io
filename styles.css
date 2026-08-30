@@ -261,7 +261,7 @@ p, h1, h2, h3, figure { margin-top: 0; }
   position: absolute;
   z-index: -1;
   inset: 18px -18px -18px 18px;
-  background: var(--sky);
+  background: #dedbd5;
 }
 .portrait-wrap img {
   width: 100%;
